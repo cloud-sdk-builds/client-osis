@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-osis`](https://www.npmjs.com/package/@aws-sdk/client-osis/v/3.1047.0).
+[`@aws-sdk/client-osis`](https://www.npmjs.com/package/@aws-sdk/client-osis/v/3.1048.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-osis - [https://cloud-sdk-builds.github.io/?sdk=client-osis](https://cloud-sdk-builds.github.io/?sdk=client-osis)
-- @aws-sdk/client-osis v3.1047.0 - [https://cloud-sdk-builds.github.io/?sdk=client-osis&version=3.1047.0](https://cloud-sdk-builds.github.io/?sdk=client-osis&version=3.1047.0)
+- @aws-sdk/client-osis v3.1048.0 - [https://cloud-sdk-builds.github.io/?sdk=client-osis&version=3.1048.0](https://cloud-sdk-builds.github.io/?sdk=client-osis&version=3.1048.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-osis@3.1047.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-osis@3.1048.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-tHuQzNa4KJqYK3KLmWeWV0SZxx5+COFdoeVWbVXDdTg+JHYwwydDudz94gfRnrO8
+sha384-zheRVoCNFNC4VdOAnccSXSdwa1kbABXhFf8RqBRTYi+IJwEbWHSLh3zXgCBWI5fj
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-osis": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-osis@3.1047.0/index.min.mjs"
+            "@aws-sdk/client-osis": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-osis@3.1048.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-osis@3.1047.0/index.min.mjs": "sha384-tHuQzNa4KJqYK3KLmWeWV0SZxx5+COFdoeVWbVXDdTg+JHYwwydDudz94gfRnrO8"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-osis@3.1048.0/index.min.mjs": "sha384-zheRVoCNFNC4VdOAnccSXSdwa1kbABXhFf8RqBRTYi+IJwEbWHSLh3zXgCBWI5fj"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-osis": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-osis@3.1047.0/index.min.mjs"
+                        "@aws-sdk/client-osis": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-osis@3.1048.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-osis@3.1047.0/index.min.mjs": "sha384-tHuQzNa4KJqYK3KLmWeWV0SZxx5+COFdoeVWbVXDdTg+JHYwwydDudz94gfRnrO8"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-osis@3.1048.0/index.min.mjs": "sha384-zheRVoCNFNC4VdOAnccSXSdwa1kbABXhFf8RqBRTYi+IJwEbWHSLh3zXgCBWI5fj"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1047.0`)
+* Always pin to a specific version (`@3.1048.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-osis/blob/refs/tags/3.1047.0/LICENSE
+https://github.com/cloud-sdk-builds/client-osis/blob/refs/tags/3.1048.0/LICENSE
 ```
 
 ---
